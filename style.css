@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*header--------------------------- */
+body{
+	font:16px/28px arial, sans-serif;
+	background-image: url(image/school.png);
+}
+
+.container{
+
+	background-color: white;
+	width: 1000px;
+	margin: auto;
+	box-sizing: border-box;
+	position: relative;
+	}
+
+.bar{
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	background-color: #3d1412;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	border-bottom: 7px solid #a89657;
+	margin: auto;
+}
+
+.bar ul{
+  display:inline-table;
+  margin-left:20px;
+  position:relative;
+}
+
+.bar ul ul{
+  display:none;
+  background-color:#3d1412;
+  width:100px;
+  margin-top:4px;
+}
+
+.bar ul ul li{
+  width:100px;
+}
+
+.bar ul li{
+  display:inline-block;
+  width:60px;
+  height:45px;
+  line-height:40px;
+  text-align:center;
+  float:left;
+}
+
+.bar ul li:hover, .bar ul li:hover{
+  background-color:#8894a8;
+}
+
+.bar ul li a, .bar ul ul li a{
+  text-decoration:none;
+  color:white;
+  display:block;
+}
+
+.bar ul li:hover > ul{
+  display:block;
+  width:100px;
+  background-color:#8894a8:
+}
+
+.bar ul:after {
+ content: ""; 
+ clear:both; 
+ display: block;
+}
+
+.twitter{
+	background-image: url(twitter.png);
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: -22px;
+	left: 830px;
+}
+
+.header{
+	width: 990px;
+	height: 157px;
+	padding: 4px;
+	margin-top: 60px;
+}	
+
+.header .judul{
+	color: darkred;
+	font-weight: bold;
+	font-size: 25px;
+	font-family:cursive;
+	text-align: center;
+	line-height: 28px;
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+
+/*image hero---------------------------*/
+.imagess {
+	height: 315px;
+	background-image: url(view.png);
+	background-size: cover;
+	background-position: 0 0;
+	border-bottom: 10px solid darkred;
+	border-top: 10px solid salmon;
+}
+
+/*konten utama------------------------- */
+
+.content{
+	width: 990px;
+	padding: 10px;
+	}
+
+.main{
+	width: 600px;
+	float: left;
+	padding: 5px;
+}
+
+.sidebar{
+	width: 350px;
+	float: right;
+	padding: 5px;
+}
+
+
+.main h3{
+	margin-bottom: -20px;
+	font-size: 15px;
+}
+
+.main .p1, .main .p1 a{
+	font-size: 13px;
+	margin-top: 9px;
+	text-decoration: none;
+}
+
+.main .p1 a{
+	color: #010507;
+}
+
+.main .p2, .main .p3, .main .p4{
+	text-align: justify;
+	font-family: times;
+	font-size: 16px;
+	margin-left:15px;
+	margin-right: 15px;
+}
+
+
+.main img{
+	width: 350px;
+	margin-top: 15px;
+	text-align: center;
+	transition: 1s;
+}
+
+.sidebar .penulis{
+	font: 16px/5px bold arial sans-serif;
+	margin-bottom: 8px;
+}
+
+.sidebar img{
+	width: 95px;
+	height: 118px;
+	float:left;
+	padding-right: 5px;
+	transition: 1s;
+}
+
+.sidebar img:hover, .main img:hover{
+	transform: scale(1.5);
+}
+
+.sidebar p{
+	font-size: 11px;
+	text-align: justify;
+	margin:10px 5px;
+	line-height: 20px;
+}
+
+.sidebar a{
+	text-decoration: none;
+	font: 11px/6px arial, sans-serif;
+	color: salmon;
+}
+
+.sidebar ul li a{
+	color:darkred;
+}
+
+.sidebar ul li a img{
+	opacity: 0.5;
+}
+
+.sidebar ul li{
+	border: 3px solid rgba(147, 154, 165, .8);
+	width: 100px;
+	height: 105px;
+	position: relative;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.sidebar ul li a span{
+	position: absolute;
+	left: 30px;
+	top: 50px;
+
+}
+
+.sidebar ul li a img:hover{
+	transform: scale(1.5);
+	opacity: 1;
+}
+
+.sidebar a:hover{
+	color: #010507;
+}
+
+
+
+/* micro clear flix-----------------------*/
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
