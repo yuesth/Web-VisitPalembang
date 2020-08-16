@@ -1,2 +1,2 @@
 # yuestadrik
-Miles Al-Karim
+Webpage statis berisi informasi tentang Palembang
